@@ -18,12 +18,25 @@
 <body>
     <div class="container">
         <div class="row">
-            <div class="col-12 text-center">
+            <div class="col-12 text-center pb-5 mb-5">
                 <h1 class="p-5 text-uppercase fw-bold text-danger">Mail Dadi</h1>
-                <h3>Inserisci l'email</h3>
+                <h1>Inserisci l'Email</h1>
                 <input type="email" id="my-email">
-                <h2 id="my-result"></h2>
+                <h2 class="m-2 fw-bold" id="my-result"></h2>
             </div>
+            <div class="col-3">
+                <h1 class="text-danger text-uppercase">Dado del Computer</h1>
+            </div>
+            <div class="col-6 fs-1 text-center" id="dices-container">
+                <i class="fas fa-dice" id="dice-icon"></i>
+            </div>
+            <div class="col-3">
+                <h1 class="text-primary text-uppercase">Il tuo Dado</h1>
+            </div>
+            <div class="col-12 text-center">
+                <button type="button" class="btn btn-dark fs-5 m-4 fw-bold" id="my-play-btn">PLAY!</button>
+            </div>
+            <div class="col-12"><h1 class="text-uppercase text-center m-5" id="dice-result"></h1></div>
         </div>
     </div>
     <script type="text/javascript" src="js/main.js"></script>
