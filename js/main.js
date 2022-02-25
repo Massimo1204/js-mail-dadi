@@ -1,10 +1,9 @@
 const userEmail = document.getElementById('my-email');
 const checkResult = document.getElementById('my-result');
-const acceptedEmails = ['mariorossi@gmail.com'];
+const acceptedEmails = ['mariorossi@gmail.com' , 'elonmusk@tesla.space', 'superman@cripto.met','eisenberg@meth.blue','songoku@kamehame.ha','ciaociao@ciao.ciao','nonnehoidea@nonloso.boh'];
 
 function keyEnter(e){
     if(e.keyCode == '13'){
-        console.log(userEmail.value);
         check();
     }
 }
